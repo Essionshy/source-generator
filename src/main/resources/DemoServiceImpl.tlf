@@ -1,0 +1,10 @@
+package com.tingyu.generator.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.tingyu.generator.entity.Demo;
+import com.tingyu.generator.service.DemoService;
+@Service
+public class DemoServiceImpl extends BaseServiceImpl<Demo> implements DemoService {
+
+}

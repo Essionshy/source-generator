@@ -1,0 +1,8 @@
+package com.tingyu.generator.dao.impl;
+
+import com.tingyu.generator.dao.DemoDao;
+import com.tingyu.generator.entity.Demo;
+
+public class DemoDaoImpl extends BaseDaoImpl<Demo> implements DemoDao{
+
+}

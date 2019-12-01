@@ -1,0 +1,7 @@
+package com.tingyu.generator.query;
+
+import com.tingyu.generator.entity.Demo;
+
+public class DemoQuery extends Demo{
+
+}
