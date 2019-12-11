@@ -55,7 +55,7 @@ public class DemoGeneratorTest {
 	 */
 	private void generateQuery(String entityName) throws IOException {
 		System.out.println("****************** 准备生成Query查询对象 **********************");
-		String sourcePath = "src/main/resources/DemoQuery.tlf";
+		String sourcePath = "src/main/resources/templates/DemoQuery.tlf";
 		String targetPath = "src/main/java/com/tingyu/generator/query/";
 		String suffixName = "Query.java";
 		generate(entityName, sourcePath, targetPath, suffixName);
@@ -70,7 +70,7 @@ public class DemoGeneratorTest {
 
 	public void generateDao(String entityName) throws IOException {
 		System.out.println("****************** 准备生成Dao接口 **********************");
-		String sourcePath = "src/main/resources/DemoDao.tlf";
+		String sourcePath = "src/main/resources/templates/DemoDao.tlf";
 		String targetPath = "src/main/java/com/tingyu/generator/dao/";
 		String suffixName = "Dao.java";
 		generate(entityName, sourcePath, targetPath, suffixName);
@@ -85,7 +85,7 @@ public class DemoGeneratorTest {
 
 	public void generateDaoImpl(String entityName) throws IOException {
 		System.out.println("****************** 准备生成DaoImpl实现类 **********************");
-		String sourcePath = "src/main/resources/DemoDaoImpl.tlf";
+		String sourcePath = "src/main/resources/templates/DemoDaoImpl.tlf";
 		String targetPath = "src/main/java/com/tingyu/generator/dao/impl/";
 		String suffixName = "DaoImpl.java";
 		generate(entityName, sourcePath, targetPath, suffixName);
@@ -99,7 +99,7 @@ public class DemoGeneratorTest {
 	 */
 	public void generateService(String entityName) throws IOException {
 		System.out.println("****************** 准备生成Service接口 **********************");
-		String sourcePath = "src/main/resources/DemoService.tlf";
+		String sourcePath = "src/main/resources/templates/DemoService.tlf";
 		String targetPath = "src/main/java/com/tingyu/generator/service/";
 		String suffixName = "Service.java";
 		generate(entityName, sourcePath, targetPath, suffixName);
@@ -114,7 +114,7 @@ public class DemoGeneratorTest {
 	public void generateServiceImpl(String entityName) throws IOException {
 		System.out.println("****************** 准备生成ServiceImpl **********************");
 
-		String sourcePath = "src/main/resources/DemoServiceImpl.tlf";
+		String sourcePath = "src/main/resources/templates/DemoServiceImpl.tlf";
 		String targetPath = "src/main/java/com/tingyu/generator/service/impl/";
 		String suffixName = "ServiceImpl.java";
 		generate(entityName, sourcePath, targetPath, suffixName);
@@ -128,7 +128,7 @@ public class DemoGeneratorTest {
 	 */
 	public void generateController(String entityName) throws IOException {
 		System.out.println("****************** 准备生成Controller **********************");
-		String sourcePath = "src/main/resources/DemoController.tlf";
+		String sourcePath = "src/main/resources/templates/DemoController.tlf";
 		String targetPath = "src/main/java/com/tingyu/generator/controller/";
 		String suffixName = "Controller.java";
 		generate(entityName, sourcePath, targetPath, suffixName);

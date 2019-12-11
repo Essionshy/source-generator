@@ -7,21 +7,19 @@ import com.tingyu.generator.dao.BaseDao;
 
 public class BaseDaoImpl<T> implements BaseDao<T> {
 
+	
 	@Override
 	public void save(T t) {
-		// TODO Auto-generated method stub
-		
+	
 	}
 
 	@Override
 	public void delete(Serializable id) {
-		// TODO Auto-generated method stub
 		System.out.println("删除ID:"+id);
 	}
 
 	@Override
 	public void update(T t) {
-		// TODO Auto-generated method stub
 		
 	}
 

@@ -19,9 +19,6 @@ public interface BaseDao<T> {
 	
 	public T get(Serializable id);
 	
-	public List<T> list();
-	
-	
-	
+	public List<T> list();	
 }
 

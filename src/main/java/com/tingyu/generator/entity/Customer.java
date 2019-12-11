@@ -19,7 +19,6 @@ import lombok.experimental.Accessors;
 public class Customer 
 {
 	private Integer	id;
-
 	private Date	gmtCreate;
 	private Date	gmtModified;
 }
